@@ -1,0 +1,30 @@
+
+// Header Styles
+
+// General Styles
+
+h1,
+h2 {
+    font-family: $font-headings-buttons;
+}
+
+nav {
+    background: $main-dark;
+
+    ul {
+        display: flex;
+
+        li a {
+            text-transform: uppercase;
+        }
+    }
+}
+
+// Home Styles
+
+.header-home {
+    background: $main-dark;
+}
+
+
+

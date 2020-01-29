@@ -1,0 +1,22 @@
+
+body {
+    font-family: $font-menu-body;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+
+    &:hover {
+        color: $secondary-color;
+    }
+}
+
+.wrapper {
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+}
