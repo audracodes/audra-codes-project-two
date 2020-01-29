@@ -9,8 +9,11 @@
     <link rel="stylesheet" href="./styles/style.css">
     <title>Willow - Blog & News</title>
 </head>
+
 <body class="body-blog">
+    <!-- Header -->
     <header class="header-blog">
+        <!-- Nav Bar -->
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -21,11 +24,14 @@
             </ul>
         </nav>
 
+        <!-- Header Text -->
         <h1>Blog & News</h1>
+
     </header>
 
     <!-- Side Bar -->
-    <aside>
+    <aside class="aside-blog">
+        <!-- About Willow -->
         <div class="about-willow-blog">
             <img src="./willow-assets/blog-image-1.jpg" alt="Willow wearing a yellow raincoat peeking out from behind a palm fern leaf.">
             <div class="about-willow-post">
@@ -34,6 +40,7 @@
             </div>
         </div>
 
+        <!-- Recent Posts List -->
         <div class="recent-posts-blog">
             <h4>Recent Posts</h4>
             <ul>
@@ -47,6 +54,7 @@
 
     <!-- Main -->
     <main class="main-blog"> 
+        <!-- Main Blog -->
         <section>
             <h3>My Favourite Travel Desinations</h3>
             <p>Monday October 9th, 2018 by Willow</p>
@@ -67,6 +75,7 @@
 
         <!-- Comment Section -->
         <section>
+            <!-- Comment One -->
             <div class="comment-one">
                 <img src="./willow-assets/blog-image-3.jpg" alt="Person tucking their long hair behind their ear.">
                 <div class="comment-one-post">
@@ -75,6 +84,7 @@
                 </div>
             </div>
 
+            <!-- Comment Two -->
             <div class="comment-two">
                 <img src="./willow-assets/blog-image-4.jpg" alt="Person peeking out behind a plant">
                 <div>
@@ -83,10 +93,27 @@
                 </div>
             </div>
         </section>
+
+        <!-- Comment Form -->
+        <section class="comment-form">
+            <div>
+                <form action="" class="form">
+                    <label for="your-name" class="visually-hidden">Name</label>
+                    <input type="text" name="name" id="your-name" placeholder="Name">
+
+                    <label for="your-email" class="visually-hidden">Email Address</label>
+                    <input type="email" name="email" id="your-email" placeholder="Email address">
+                    
+                    <label for="your-comment" class="visually-hidden">Comment</label>
+                    <input type="text" name="comment" id="your-comment" placeholder="Comment">
+
+                    <input type="submit" value="post-comment" class="button button-comment">
+                </form>
+            </div>
+        </section>
     </main>
 
-    <!-- Add in the footer -->
-
+    <!-- Footer -->
     <footer class="footer-blog">
         <div class="footer-div">
             <h5>Copyright &copy; 2018 HackerYou</h5>
