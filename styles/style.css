@@ -260,22 +260,50 @@ a:hover {
 h1,
 h2 {
   font-family: "Abril Fatface", cursive;
+  color: #F6F6F6;
+  text-transform: uppercase;
+  font-weight: lighter;
 }
 
 nav {
   background: #345231;
+  letter-spacing: 1px;
 }
 
 nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  padding-top: 20px;
 }
 
 nav ul li a {
   text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  color: #F6F6F6;
+  font-weight: bold;
+  margin: 20px;
+  font-size: 20px;
 }
 
 .header-home {
   background: #345231;
+}
+
+.header-home h1 {
+  font-size: 160px;
+  letter-spacing: 1px;
+  line-height: 92px;
+}
+
+.header-home h2 {
+  margin: 0;
+  font-size: 32px;
 }

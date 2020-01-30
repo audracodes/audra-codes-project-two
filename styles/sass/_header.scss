@@ -6,16 +6,29 @@
 h1,
 h2 {
     font-family: $font-headings-buttons;
+    color: $background-color;
+    text-transform: uppercase;
+    font-weight: lighter;
 }
 
 nav {
     background: $main-dark;
+    letter-spacing: 1px;
 
     ul {
         display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding-top: 20px;
 
         li a {
             text-transform: uppercase;
+            font-family: $font-menu-body;
+            color: $background-color;
+            font-weight: bold;
+            margin: 20px;
+            font-size: 20px;
         }
     }
 }
@@ -24,6 +37,17 @@ nav {
 
 .header-home {
     background: $main-dark;
+
+    h1 {
+        font-size: 160px;
+        letter-spacing: 1px;
+        line-height: 92px;
+    }
+
+    h2 {
+        margin: 0;
+        font-size: 32px;
+    }
 }
 
 
