@@ -1,0 +1,28 @@
+
+.about-section,
+.journey-section,
+.contact-section {
+    background: $background-color;
+}
+
+.about-section h3,
+.journey-section h3 {
+    font-size: 42px;
+}
+
+
+// Who's Willow 
+.about-section {
+    text-align: center;
+
+    h3 {
+        margin-top: 0;
+    }
+}
+
+
+// Gallery 
+
+.full-bleed-photo img {
+    width: 100%;
+}

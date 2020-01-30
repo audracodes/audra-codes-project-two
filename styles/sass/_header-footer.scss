@@ -9,6 +9,7 @@ h2 {
     color: $background-color;
     text-transform: uppercase;
     font-weight: lighter;
+    letter-spacing: 2px;
 }
 
 nav {
@@ -20,7 +21,6 @@ nav {
         justify-content: center;
         align-items: center;
         margin: 0;
-        padding-top: 20px;
 
         li a {
             text-transform: uppercase;
@@ -39,7 +39,7 @@ nav {
     background: $main-dark;
 
     h1 {
-        font-size: 160px;
+        font-size: 140px;
         letter-spacing: 1px;
         line-height: 92px;
     }
@@ -50,5 +50,23 @@ nav {
     }
 }
 
+.willow-header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+// Blog Styles
+
+.header-blog {
+    background: url(../willow-assets/blog-image-1.jpg);
+}
 
 
+// Footer
+footer {
+    background: $text;
+
+    h5 {
+        color: $background-color;
+    }
+}
