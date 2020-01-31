@@ -29,7 +29,7 @@
 
 // Gallery
 
-.poop-div {
+.gallery-div {
     display: flex;
     justify-content: space-between;
     margin: 3% 0;
@@ -53,10 +53,35 @@
 .blog-contact,
 .contact-me-contact {
     width: 45%;
+
+    p {
+        margin-left: 13.5%;
+        margin-top: 0;
+    }
 }
 
 .fas {
     background: $secondary-color;
     border-radius: 50%;
     padding: 13px;
+    margin-top: 5%;
+}
+
+.label {
+    display: flex;
+
+    h4 {
+        margin: 0;
+        padding: 7% 0 0 5%;
+    }
+}
+
+.contact-photos,
+.about-contact {
+    margin-top: 3%;
+}
+
+.contact-me-contact,
+.blog-contact {
+    margin-bottom: 3%;
 }

@@ -65,8 +65,10 @@ nav {
 // Footer
 footer {
     background: $text;
-
+    text-align: center;
+    
     h5 {
         color: $background-color;
+        margin: 0;
     }
 }

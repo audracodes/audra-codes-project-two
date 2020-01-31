@@ -333,10 +333,12 @@ nav ul li a {
 
 footer {
   background: #1F1F1F;
+  text-align: center;
 }
 
 footer h5 {
   color: #F6F6F6;
+  margin: 0;
 }
 
 .about-section,
@@ -362,7 +364,7 @@ footer h5 {
   width: 100%;
 }
 
-.poop-div {
+.gallery-div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -373,7 +375,7 @@ footer h5 {
   padding: 0;
 }
 
-.poop-div img {
+.gallery-div img {
   width: 95%;
 }
 
@@ -395,8 +397,38 @@ footer h5 {
   width: 45%;
 }
 
+.contact-photos p,
+.about-contact p,
+.blog-contact p,
+.contact-me-contact p {
+  margin-left: 13.5%;
+  margin-top: 0;
+}
+
 .fas {
   background: #E4A436;
   border-radius: 50%;
   padding: 13px;
+  margin-top: 5%;
+}
+
+.label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.label h4 {
+  margin: 0;
+  padding: 7% 0 0 5%;
+}
+
+.contact-photos,
+.about-contact {
+  margin-top: 3%;
+}
+
+.contact-me-contact,
+.blog-contact {
+  margin-bottom: 3%;
 }
