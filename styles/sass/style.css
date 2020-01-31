@@ -363,40 +363,11 @@ footer h5 {
 }
 
 .poop-div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin: 3% 0;
-  padding: 0;
+  display: none;
+  margin: 0;
 }
 
-.poop-div img {
-  width: 95%;
+.poop-div li {
+  width: 30%;
 }
-
-.contact-div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.contact-photos,
-.about-contact,
-.blog-contact,
-.contact-me-contact {
-  width: 45%;
-}
-
-.fas {
-  background: #E4A436;
-  border-radius: 50%;
-  padding: 13px;
-}
+/*# sourceMappingURL=style.css.map */

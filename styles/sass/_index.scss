@@ -21,8 +21,42 @@
 }
 
 
-// Gallery 
+// Full Bleed Photo
 
 .full-bleed-photo img {
     width: 100%;
+}
+
+// Gallery
+
+.poop-div {
+    display: flex;
+    justify-content: space-between;
+    margin: 3% 0;
+    padding: 0;
+
+    img {
+        width: 95%;
+    }
+}
+
+// Contact Section
+
+.contact-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-photos,
+.about-contact,
+.blog-contact,
+.contact-me-contact {
+    width: 45%;
+}
+
+.fas {
+    background: $secondary-color;
+    border-radius: 50%;
+    padding: 13px;
 }
