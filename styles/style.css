@@ -237,7 +237,7 @@ html {
 
 body {
   font-family: "Montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 h3,
@@ -281,6 +281,10 @@ nav {
   letter-spacing: 1px;
 }
 
+nav h2 {
+  margin: 3%;
+}
+
 nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -300,7 +304,7 @@ nav ul li a {
   color: #F6F6F6;
   font-weight: bold;
   margin: 20px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .header-home {
@@ -308,7 +312,7 @@ nav ul li a {
 }
 
 .header-home h1 {
-  font-size: 140px;
+  font-size: 120px;
   letter-spacing: 1px;
   line-height: 92px;
 }
@@ -322,9 +326,46 @@ nav ul li a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-shadow: 20px 20px white;
+          box-shadow: 20px 20px white;
+  width: 28%;
+  position: absolute;
+  right: 15%;
+  top: 15%;
+}
+
+.header-title-container {
+  width: 70%;
+  position: relative;
+}
+
+.header-title-container .header-subtitle {
+  width: 20%;
+  position: absolute;
+  right: 90%;
+  top: -45%;
+}
+
+.header {
+  width: 100%;
+}
+
+.move-me {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 75vh;
 }
 
 .header-blog {
@@ -339,6 +380,9 @@ footer {
 footer h5 {
   color: #F6F6F6;
   margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  text-transform: capitalize;
 }
 
 .about-section,
@@ -349,7 +393,7 @@ footer h5 {
 
 .about-section h3,
 .journey-section h3 {
-  font-size: 42px;
+  font-size: 30px;
 }
 
 .about-section {
@@ -357,7 +401,12 @@ footer h5 {
 }
 
 .about-section h3 {
+  padding-top: 10%;
   margin-top: 0;
+}
+
+h4 {
+  font-size: 24px;
 }
 
 .full-bleed-photo img {
@@ -402,7 +451,7 @@ footer h5 {
 .blog-contact p,
 .contact-me-contact p {
   margin-left: 13.5%;
-  margin-top: 0;
+  margin-top: 10px;
 }
 
 .fas {
@@ -431,4 +480,23 @@ footer h5 {
 .contact-me-contact,
 .blog-contact {
   margin-bottom: 3%;
+}
+
+.header-contact-me {
+  background: url(../willow-assets/contact-image-1.jpg);
+}
+
+.fab {
+  color: #345231;
+  font-size: 25px;
+}
+
+.aside-contact-me ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.aside-contact-me {
+  width: 25%;
 }

@@ -16,6 +16,10 @@ nav {
     background: $main-dark;
     letter-spacing: 1px;
 
+    h2 {
+        margin: 3%;
+    }
+
     ul {
         display: flex;
         justify-content: center;
@@ -28,7 +32,7 @@ nav {
             color: $background-color;
             font-weight: bold;
             margin: 20px;
-            font-size: 20px;
+            font-size: 16px;
         }
     }
 }
@@ -39,7 +43,7 @@ nav {
     background: $main-dark;
 
     h1 {
-        font-size: 140px;
+        font-size: 120px;
         letter-spacing: 1px;
         line-height: 92px;
     }
@@ -52,7 +56,37 @@ nav {
 
 .willow-header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
+    box-shadow: 20px 20px white;
+    width: 28%;
+    position: absolute;
+    right: 15%;
+    top: 15%;
+
+}
+
+.header-title-container {
+    width: 70%;
+    position: relative;
+
+    .header-subtitle {
+        width: 20%;
+        position: absolute;
+        right: 90%;
+        top: -45%;
+    }
+}
+
+.header {
+    width: 100%;
+}
+
+.move-me {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 75vh;
 }
 
 // Blog Styles
@@ -70,5 +104,8 @@ footer {
     h5 {
         color: $background-color;
         margin: 0;
+        font-family: $font-menu-body;
+        font-size: 15px;
+        text-transform: capitalize;
     }
 }

@@ -1,4 +1,6 @@
 
+// General Page Styles
+
 .about-section,
 .journey-section,
 .contact-section {
@@ -7,7 +9,7 @@
 
 .about-section h3,
 .journey-section h3 {
-    font-size: 42px;
+    font-size: 30px;
 }
 
 
@@ -16,10 +18,15 @@
     text-align: center;
 
     h3 {
+        padding-top: 10%;
         margin-top: 0;
     }
 }
 
+// Main Blog
+h4 {
+    font-size: 24px;
+}
 
 // Full Bleed Photo
 
@@ -56,7 +63,7 @@
 
     p {
         margin-left: 13.5%;
-        margin-top: 0;
+        margin-top: 10px;
     }
 }
 
