@@ -240,6 +240,16 @@ body {
   font-size: 16px;
 }
 
+body p {
+  line-height: 30px;
+}
+
+.wrapper {
+  max-width: 1200px;
+  width: 80%;
+  margin: 0 auto;
+}
+
 h3,
 h4,
 h5 {
@@ -261,10 +271,13 @@ a:hover {
   color: #E4A436;
 }
 
-.wrapper {
-  max-width: 1200px;
-  width: 80%;
-  margin: 0 auto;
+button {
+  border: none;
+  text-transform: uppercase;
+  background: #E4A436;
+  font-family: "Abril Fatface", cursive;
+  letter-spacing: 1px;
+  padding: 15px 20px;
 }
 
 h1,
@@ -330,10 +343,10 @@ nav ul li a {
       justify-content: space-around;
   -webkit-box-shadow: 20px 20px white;
           box-shadow: 20px 20px white;
-  width: 28%;
+  width: 30%;
   position: absolute;
-  right: 15%;
-  top: 15%;
+  right: 10%;
+  top: 20%;
 }
 
 .header-title-container {
@@ -365,7 +378,7 @@ nav ul li a {
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  height: 75vh;
+  height: 90vh;
 }
 
 .header-blog {
@@ -398,11 +411,15 @@ footer h5 {
 
 .about-section {
   text-align: center;
+  padding: 5% 0 10% 0;
 }
 
 .about-section h3 {
-  padding-top: 10%;
   margin-top: 0;
+}
+
+.about-section p {
+  padding-bottom: 1%;
 }
 
 h4 {
