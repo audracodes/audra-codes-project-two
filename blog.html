@@ -12,7 +12,7 @@
 
 <body class="body-blog">
     <!-- Header -->
-    <header class="header-blog">
+    <header class="header-pages header-blog">
         <!-- Nav Bar -->
         <nav>
             <ul>
@@ -25,18 +25,21 @@
         </nav>
 
         <!-- Header Text -->
-        <h1>Blog & News</h1>
+        <h1 class="wrapper">Blog & News</h1>
 
     </header>
 
+<div class="flex-all wrapper">
     <!-- Side Bar -->
     <aside class="aside-blog">
         <!-- About Willow -->
         <div class="about-willow-blog">
-            <img src="./willow-assets/blog-image-2.jpg" alt="Willow wearing a yellow raincoat peeking out from behind a palm fern leaf.">
+            <div class="image-div">
+                <img src="./willow-assets/blog-image-2.jpg" alt="Willow wearing a yellow raincoat peeking out from behind a palm fern leaf.">
+            </div>
             <div class="about-willow-post">
                 <h4>About Willow</h4>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, iusto! Inventore praesentium exercitationem velit impedit, officiis nam nisi, labore nemo ipsam vero natus, veritatis suscipit explicabo? Nostrum aperiam nesciunt alias. <a href="">Find out more.</a></p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, iusto! Inventore praesentium exercitationem velit impedit, officiis nam nisi, labore nemo ipsam vero natus, veritatis suscipit. <a href="" class="find-out">Find out more.</a></p>
             </div>
         </div>
 
@@ -55,7 +58,7 @@
     <!-- Main -->
     <main class="main-blog"> 
         <!-- Main Blog -->
-        <section>
+        <section class="main-blog-section">
             <h3>My Favourite Travel Desinations</h3>
             <p>Monday October 9th, 2018 by Willow</p>
 
@@ -71,13 +74,19 @@
 
             <p>Dolorum nemo nobis cumque earum neque doloribus voluptates iusto totam voluptatem sed? Officia eaque rem quos adipisci, quisquam corporis eos excepturi, accusamus eligendi laudantium cum natus dicta quaerat non provident.</p>
 
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure nisi vel odit, voluptates ut, omnis quibusdam dolorem provident iusto autem non! Eum, rem illum dolores ullam sunt eius ab!</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, quaerat. Libero recusandae, ipsa, consequatur veritatis magni nihil officiis ducimus ut ex temporibus eveniet at perferendis voluptatibus doloremque. Laudantium, porro reiciendis.</p>
+
         </section>
 
         <!-- Comment Section -->
         <section>
             <!-- Comment One -->
-            <div class="comment-one">
-                <img src="./willow-assets/blog-image-3.jpg" alt="Person tucking their long hair behind their ear.">
+            <div class="comment comment-one">
+                <div class="comment-pic">
+                    <img src="./willow-assets/blog-image-3.jpg" alt="Person tucking their long hair behind their ear.">
+                </div>
                 <div class="comment-one-post">
                     <p>Tuesday Octobr 9th, 2018 by Barb</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor similique officiis incidunt voluptatibus debitis porro, minima itaque asperiores alias, perferendis culpa laborum eum deserunt consectetur quisquam nostrum eaque possimus illum.</p>
@@ -85,9 +94,12 @@
             </div>
 
             <!-- Comment Two -->
-            <div class="comment-two">
-                <img src="./willow-assets/blog-image-4.jpg" alt="Person peeking out behind a plant">
-                <div>
+            <div class="comment comment-two">
+                <div class="comment-pic">
+                    <img src="./willow-assets/blog-image-4.jpg" alt="Person peeking out behind a plant">
+
+                </div>
+                <div class="comment-two-post">
                     <p>Wednesday October 10th, 2018 by Daisy</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus veniam quis culpa, temporibus libero rem iure, nihil fugiat modi molestiae similique! Illo repudiandae hic earum excepturi numquam unde illum corrupti!</p>
                 </div>
@@ -112,6 +124,7 @@
             </div>
         </section>
     </main>
+</div>
 
     <!-- Footer -->
     <footer class="footer-blog">

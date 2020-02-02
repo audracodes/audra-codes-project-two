@@ -89,10 +89,28 @@ nav {
     height: 90vh;
 }
 
+// Blog/Contact Styles
+
+.header-pages {
+    height: 53vh;
+    background-position: bottom;
+
+    h1 {
+        margin-top: 38.5vh;
+        font-size: 80px;
+    }
+}
 // Blog Styles
 
 .header-blog {
     background: url(../willow-assets/blog-image-1.jpg);
+}
+
+
+// Contact Page
+
+.header-contact-me {
+    background: url(../willow-assets/contact-image-1.jpg);
 }
 
 

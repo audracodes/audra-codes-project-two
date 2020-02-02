@@ -221,7 +221,7 @@ html {
           box-sizing: inherit;
 }
 
-.visuallyhidden:not(:focus):not(:active) {
+.visually-hidden:not(:focus):not(:active) {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -278,6 +278,11 @@ button {
   font-family: "Abril Fatface", cursive;
   letter-spacing: 1px;
   padding: 15px 20px;
+}
+
+.body-blog,
+.body-contact-me {
+  background: #F6F6F6;
 }
 
 h1,
@@ -381,8 +386,22 @@ nav ul li a {
   height: 90vh;
 }
 
+.header-pages {
+  height: 53vh;
+  background-position: bottom;
+}
+
+.header-pages h1 {
+  margin-top: 38.5vh;
+  font-size: 80px;
+}
+
 .header-blog {
   background: url(../willow-assets/blog-image-1.jpg);
+}
+
+.header-contact-me {
+  background: url(../willow-assets/contact-image-1.jpg);
 }
 
 footer {
@@ -583,8 +602,106 @@ h4 {
   margin-bottom: 3%;
 }
 
-.header-contact-me {
-  background: url(../willow-assets/contact-image-1.jpg);
+.flex-all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about-willow-blog,
+.recent-posts-blog,
+.main-blog-section,
+.comment-one,
+.comment-two {
+  background: white;
+}
+
+.about-willow-blog,
+.recent-posts-blog {
+  width: 90%;
+}
+
+.image-div {
+  width: 100%;
+}
+
+.image-div img {
+  width: 100%;
+}
+
+.about-willow-blog {
+  margin-top: 20%;
+  padding: 7%;
+}
+
+.about-willow-blog a {
+  color: #709B6B;
+  font-weight: bold;
+}
+
+.about-willow-blog a:hover {
+  color: #E4A436;
+}
+
+.recent-posts-blog {
+  margin-top: 3%;
+  padding: 3% 3% 5% 3%;
+}
+
+.recent-posts-blog h4 {
+  padding-left: 5%;
+  margin: 10px 10px 10px 0;
+}
+
+.recent-posts-blog li {
+  list-style-type: disc;
+  line-height: 25px;
+}
+
+.recent-posts-blog li a {
+  color: #1F1F1F;
+}
+
+.recent-posts-blog li a:hover {
+  color: #E4A436;
+}
+
+.main-blog-section {
+  margin: 8% 0 6% 0;
+  padding: 3%;
+  border-bottom: 5px solid #709B6B;
+}
+
+.comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 3%;
+}
+
+.comment p {
+  margin: 5px 5px 0 0;
+}
+
+.comment-one-post,
+.comment-two-post {
+  padding: 15px 5px 15px 5px;
+}
+
+.comment-pic {
+  width: 30%;
+  padding: 20px;
+}
+
+.comment-pic img {
+  width: 100%;
+}
+
+.comment-two {
+  border-bottom: 5px solid #709B6B;
 }
 
 .fab {
