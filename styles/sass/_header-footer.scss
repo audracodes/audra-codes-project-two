@@ -127,3 +127,21 @@ footer {
         text-transform: capitalize;
     }
 }
+
+// Media Queries
+
+@media (max-width: 1255px) {
+    // Header
+    .header-home {
+        h1 {
+            font-size: 90px;
+        }
+    }
+
+    .header-title-container {
+        .header-subtitle {
+            top: -20%;
+        }
+    }
+
+}
