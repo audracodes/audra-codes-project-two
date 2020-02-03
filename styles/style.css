@@ -271,7 +271,8 @@ a:hover {
   color: #E4A436;
 }
 
-button {
+button,
+.button-submit {
   border: none;
   text-transform: uppercase;
   background: #E4A436;
@@ -707,6 +708,7 @@ h4 {
 .fab {
   color: #345231;
   font-size: 25px;
+  letter-spacing: 30px;
 }
 
 .aside-contact-me ul {
@@ -715,6 +717,62 @@ h4 {
   display: flex;
 }
 
+.aside-contact-me ul a {
+  color: #1F1F1F;
+}
+
+.aside-contact-me ul a:hover {
+  color: #E4A436;
+}
+
 .aside-contact-me {
   width: 25%;
+  background: white;
+  margin: 5% 5% 5% 10%;
+}
+
+.contact-info-div ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 5%;
+}
+
+.contact-info-div ul li:first-of-type {
+  font-weight: bold;
+  padding: 20px 0;
+}
+
+.contact-info-div ul li {
+  padding: 1%;
+}
+
+.icons-div {
+  padding-top: 5%;
+}
+
+.together-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flexed-field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+input {
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  padding: 15px 20% 15px 15px;
+}
+
+.contact-form {
+  margin-top: 10%;
 }

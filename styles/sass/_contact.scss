@@ -5,12 +5,49 @@
 .fab {
     color: $main-dark;
     font-size: 25px;
+    letter-spacing: 30px;
 }
 
 .aside-contact-me ul{
     display: flex;
+
+    a {
+        color: $text;
+
+        &:hover {
+            color: $secondary-color;
+        }
+    }
 }
 
 .aside-contact-me {
     width: 25%;
+    background: white;
+    margin: 5% 5% 5% 10%;
+}
+
+
+.contact-info-div ul {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5%;
+
+    li:first-of-type {
+        font-weight: bold;
+        padding: 20px 0;
+    }
+
+    li {
+        padding: 1%;
+    }
+}
+
+.icons-div {
+    padding-top: 5%;
+}
+
+// Form
+
+.together-flex {
+    display: flex;
 }

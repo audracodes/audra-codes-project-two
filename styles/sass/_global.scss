@@ -43,7 +43,8 @@ a {
 
 // Buttons
 
-button {
+button,
+.button-submit {
     border: none;
     text-transform: uppercase;
     background: $secondary-color;

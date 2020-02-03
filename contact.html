@@ -25,54 +25,79 @@
     </header>
 
     <!-- Side Bar for Social/Contact -->
-    <aside class="aside-contact-me">
-        <!-- Social Icons -->
-        <div>
-            <ul>
-                <!-- Add text for screen readers!!! -->
-                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href=""><i class="fab fa-twitter"></i></a></li>
-                <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
-                <li><a href=""><i class="fab fa-instagram"></i></a></li>
-            </ul>
-        </div>
 
-        <!-- Contact Info  -->
-        <div>
-            <ul>
-                <!-- Email/Phone number are links so you could call/email from your phone-->
-                <li><a href="">info@email.com</a></li>
-                <li><a href="">123 - 456 - 7890</a></li>
-                <li><a href="">123 Queen Street West, Unit 10</a></li>
-                <li><a href="">Toronto, Ontario</a></li>
-                <li><a href="">M5V2D5</a></li>
-            </ul>
-        </div>
+    <div class="together-flex">
 
-    </aside>
-
-    <!-- Main -->
-    <main class="main-contact-me"> 
-
-        <!-- Contact Form -->
-        <section class="contact-form">
-            <div>
-                <form action="" class="form">
-                    <label for="your-name" class="visually-hidden">Name</label>
-                    <input type="text" name="name" id="your-name" placeholder="Name">
-
-                    <label for="your-email" class="visually-hidden">Email Address</label>
-                    <input type="email" name="email" id="your-email" placeholder="Email address">
-                    
-                    <label for="your-message" class="visually-hidden">Message</label>
-                    <input type="text" name="message" id="your-message" placeholder="Message">
-
-                    <input type="submit" value="submit" class="button button-submit">
-                </form>
+        <aside class="aside-contact-me wrapper">
+            <!-- Social Icons -->
+            <div class="icons-div">
+                <ul>
+                    <li>
+                        <a href="">
+                            <span class="visually-hidden">Facebook</span>
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="visually-hidden">Twitter</span>
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="visually-hidden">LinkenIn</span>
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="visually-hidden">Instagram</span>
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
             </div>
-        </section>
-    </main>
-
+            
+            <!-- Contact Info  -->
+            <div class="contact-info-div">
+                <ul>
+                    <!-- Email/Phone number are links so you could call/email from your phone-->
+                    <li><a href="">info@email.com</a></li>
+                    <li><a href="">123 - 456 - 7890</a></li>
+                    <li><a href="">123 Queen Street West, Unit 10</a></li>
+                    <li><a href="">Toronto, Ontario</a></li>
+                    <li><a href="">M5V2D5</a></li>
+                </ul>
+            </div>
+            
+        </aside>
+        
+        <!-- Main -->
+        <main class="main-contact-me"> 
+            
+            <!-- Contact Form -->
+            <section class="contact-form">
+                <div>
+                    <form action="" class="form">
+                        <div class="flexed-field">
+                            <label for="your-name" class="visually-hidden">Name</label>
+                            <input type="text" name="name" id="your-name" placeholder="Name">
+                            
+                            <label for="your-email" class="visually-hidden">Email Address</label>
+                            <input type="email" name="email" id="your-email" placeholder="Email address">
+                        </div>
+                        
+                        <label for="your-message" class="visually-hidden">Message</label>
+                        <input type="text" name="message" id="your-message" placeholder="Message">
+                        
+                        <input type="submit" value="submit" class="button button-submit">
+                    </form>
+                </div>
+            </section>
+        </main>
+    </div>
+        
     <footer class="footer-blog">
         <div class="footer-div">
             <h5>Copyright &copy; 2018 HackerYou</h5>
