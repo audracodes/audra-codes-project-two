@@ -37,6 +37,10 @@ nav {
     }
 }
 
+.hamburger {
+    display: none;
+}
+
 // Home Styles
 
 .header-home {
@@ -128,20 +132,4 @@ footer {
     }
 }
 
-// Media Queries
 
-@media (max-width: 1255px) {
-    // Header
-    .header-home {
-        h1 {
-            font-size: 90px;
-        }
-    }
-
-    .header-title-container {
-        .header-subtitle {
-            top: -20%;
-        }
-    }
-
-}

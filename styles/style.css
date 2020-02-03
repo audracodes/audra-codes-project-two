@@ -326,6 +326,10 @@ nav ul li a {
   font-size: 16px;
 }
 
+.hamburger {
+  display: none;
+}
+
 .header-home {
   background: #345231;
 }
@@ -416,15 +420,6 @@ footer h5 {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
   text-transform: capitalize;
-}
-
-@media (max-width: 1255px) {
-  .header-home h1 {
-    font-size: 90px;
-  }
-  .header-title-container .header-subtitle {
-    top: -20%;
-  }
 }
 
 .about-section,
@@ -824,4 +819,183 @@ input:first-of-type {
 
 .flexed-field-blog input {
   margin-bottom: 20px;
+}
+
+@media (max-width: 1255px) {
+  .header-home h1 {
+    font-size: 90px;
+  }
+  .header-title-container .header-subtitle {
+    top: -20%;
+  }
+}
+
+@media (max-width: 925px) {
+  .move-me {
+    height: 70vh;
+  }
+  .header-home h1 {
+    font-size: 80px;
+  }
+  .willow-header {
+    width: 30%;
+    right: 10%;
+    top: 10%;
+  }
+  .favourite-things-div {
+    display: block;
+  }
+  .favourite-things-div .fav-things-pic {
+    top: -10%;
+    left: 25%;
+  }
+  .favourite-things-div .fav-things-pic img {
+    -webkit-box-shadow: 20px 20px #709B6B, -300px 20px #709B6B;
+            box-shadow: 20px 20px #709B6B, -300px 20px #709B6B;
+  }
+  .favourite-things-post,
+  .bucket-list-post {
+    padding-top: 35%;
+    width: 100%;
+    text-align: center;
+  }
+  .bucket-list-div {
+    display: block;
+  }
+  .bucket-list-div .bucket-list-pic {
+    right: 28%;
+  }
+  .bucket-list-div .bucket-list-pic img {
+    -webkit-box-shadow: 20px 20px #345231, 300px 20px #345231;
+            box-shadow: 20px 20px #345231, 300px 20px #345231;
+  }
+  .together-flex {
+    display: block;
+  }
+  .contact-form {
+    width: 70%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+  }
+  .aside-contact-me {
+    width: 70%;
+    margin-left: 20%;
+  }
+  .header-contact-me h1 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 835px) {
+  .move-me {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    height: 60vh;
+  }
+  .header-title-container {
+    padding-left: 20%;
+  }
+  .header-title-container .header-subtitle {
+    right: 60%;
+  }
+  .willow-header {
+    top: 30%;
+    right: 40%;
+    width: 20%;
+  }
+  .favourite-things-div .fav-things-pic img {
+    -webkit-box-shadow: 20px 20px #709B6B, -300px 20px white;
+            box-shadow: 20px 20px #709B6B, -300px 20px white;
+  }
+  .favourite-things-post,
+  .bucket-list-post {
+    padding-top: 30%;
+    width: 100%;
+    text-align: center;
+  }
+  .bucket-list-div {
+    display: block;
+  }
+  .bucket-list-div .bucket-list-pic {
+    right: 28%;
+  }
+  .bucket-list-div .bucket-list-pic img {
+    -webkit-box-shadow: 20px 20px #345231, 300px 20px white;
+            box-shadow: 20px 20px #345231, 300px 20px white;
+  }
+  .willows-journey-div {
+    display: block;
+  }
+  .journey-pic img {
+    width: 40%;
+    margin-left: 30%;
+  }
+  .willows-journey-post {
+    text-align: center;
+    margin-left: 20%;
+  }
+  .header-blog h1 {
+    font-size: 70px;
+  }
+  .message input {
+    width: 60%;
+    height: 40%;
+    padding: 15px 50% 40% 15px;
+  }
+}
+
+@media (max-width: 650px) {
+  .contact-photos,
+  .about-contact,
+  .blog-contact,
+  .contact-me-contact {
+    width: 100%;
+  }
+  .willow-header {
+    width: 30%;
+  }
+  .header-title-container .header-subtitle {
+    width: 30%;
+    right: 60%;
+  }
+  .header-home h1 {
+    font-size: 60px;
+  }
+  .hamburger {
+    display: inline-block;
+    margin-left: 5%;
+  }
+  .hide-me {
+    display: none;
+  }
+  .header-blog h1 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 530px) {
+  .about-section {
+    padding-bottom: 20%;
+  }
+  .contact-form {
+    width: 50%;
+    margin-left: 0;
+    margin-bottom: 10%;
+  }
+  .flexed-field {
+    display: block;
+  }
+  .header-contact-me h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 405px) {
+  .header-home h1 {
+    font-size: 30px;
+  }
 }

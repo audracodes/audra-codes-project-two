@@ -1,0 +1,250 @@
+// Media Queries
+
+@media (max-width: 1255px) {
+    // Header
+    .header-home {
+        h1 {
+            font-size: 90px;
+        }
+    }
+
+    .header-title-container {
+        .header-subtitle {
+            top: -20%;
+        }
+    }
+
+}
+
+@media (max-width: 925px) {
+    // Header
+
+    .move-me {
+        height: 70vh;
+    }
+    .header-home {
+        h1 {
+            font-size: 80px;
+        }
+    }
+
+    .willow-header {
+        width: 30%;
+        right: 10%;
+        top: 10%;
+    }
+
+    // Blog Section
+
+    .favourite-things-div {
+        display: block;
+
+        .fav-things-pic {
+            top: -10%;
+            left: 25%;
+
+            img {
+                box-shadow: 20px 20px $picture-accent-color, -300px 20px $picture-accent-color;
+            }
+        }
+    }
+
+    .favourite-things-post,
+    .bucket-list-post {
+        padding-top: 35%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .bucket-list-div {
+        display: block;
+
+        .bucket-list-pic {
+            right: 28%;
+
+            img {
+                box-shadow: 20px 20px $main-dark, 300px 20px $main-dark; 
+            }
+        }
+    }
+
+    .together-flex {
+        display: block;
+    }
+
+    .contact-form {
+        width: 70%;
+        margin-left: 10%;
+        margin-bottom: 10%;
+    }
+
+    .aside-contact-me {
+        width: 70%;
+        margin-left: 20%;
+    }
+
+    .header-contact-me {
+        h1 {
+            font-size: 60px;
+        }
+    }
+
+}
+
+@media (max-width: 835px ) {
+    // Header
+    .move-me {
+        justify-content: center;
+        align-items: flex-start;
+        height: 60vh;
+    }
+    
+    .header-title-container {
+        padding-left: 20%;
+
+        .header-subtitle {
+            right: 60%;
+        }
+    }
+
+    .willow-header {
+        top: 30%;
+        right: 40%;
+        width: 20%;
+    }
+
+    // Blog 
+    .favourite-things-div {
+        .fav-things-pic {
+            img {
+                box-shadow: 20px 20px $picture-accent-color, -300px 20px white;
+            }
+        }
+    }
+
+    .favourite-things-post,
+    .bucket-list-post {
+        padding-top: 30%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .bucket-list-div {
+        display: block;
+
+        .bucket-list-pic {
+            right: 28%;
+
+            img {
+                box-shadow: 20px 20px $main-dark, 300px 20px white; 
+            }
+        }
+    }
+
+    // Willow's Journey
+
+    .willows-journey-div {
+        display: block;
+    }
+
+    .journey-pic {
+        
+        img {
+            width: 40%;
+            margin-left: 30%;
+        }
+    }
+
+    .willows-journey-post {
+        text-align: center;
+        margin-left: 20%;
+    }
+
+    .header-blog {
+        h1 {
+            font-size: 70px;
+        }
+    }
+
+    .message {
+
+
+        input {
+            width: 60%;
+            height: 40%;
+            padding: 15px 50% 40% 15px;
+        }
+    }
+}
+
+@media (max-width: 650px ) {
+    .contact-photos,
+    .about-contact,
+    .blog-contact,
+    .contact-me-contact {
+        width: 100%;
+    }
+
+    .willow-header {
+        width: 30%;
+    }
+
+    .header-title-container {
+        .header-subtitle {
+            width: 30%;
+            right: 60%;
+        }
+    }
+
+    .header-home {
+        h1 {
+            font-size: 60px;
+        }
+    }
+    .hamburger {
+        display: inline-block;
+        margin-left: 5%;
+    }
+
+    .hide-me {
+        display: none;
+    }
+
+    .header-blog {
+        h1 {
+            font-size: 50px;
+        }
+    }
+
+}
+
+@media (max-width: 530px) {
+
+    .about-section {
+        padding-bottom: 20%;
+    }
+
+    .contact-form {
+        width: 50%;
+        margin-left: 0;
+        margin-bottom: 10%;
+    }
+
+    .flexed-field {
+        display: block;
+    }
+
+    .header-contact-me {
+        h1 {
+            font-size: 40px;
+        }
+    }
+}
+
+@media (max-width: 405px) {
+    .header-home {
+        h1 {
+            font-size: 30px;
+        }
+    }
+}
